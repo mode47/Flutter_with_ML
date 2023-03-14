@@ -22,7 +22,7 @@ class _MlModel extends State<MlModel> {
   String? result;
   final picker=ImagePicker();
   File? img;
-  var url="https://skin-app-production-e519.up.railway.app/predict";
+  var url="https://skin-app-production-e519.up.railway.app/predictApi";
   Future pickImage() async{
     PickedFile? pickedFile=await picker.getImage(source: ImageSource.gallery,);
     setState(() {
